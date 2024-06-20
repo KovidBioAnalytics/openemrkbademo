@@ -7,9 +7,9 @@ $disable_utf8_flag = false;
 
 $host   = 'localhost';
 $port   = '3306';
-$login  = 'openemr';
-$pass   = 'openemr';
-$dbase  = 'openemr';
+$login  = 'kbaoemrdb';
+$pass   = 'Met@b0l0mics';
+$dbase  = 'kbaoemrdb';
 $db_encoding = 'utf8mb4';
 
 $sqlconf = array();
