@@ -3,7 +3,7 @@ os: linux
 files:
   - source: /
     destination: /var/www/html/openemrkbademo/
-  hooks:
+hooks:
   BeforeInstall:
     - location: scripts/start_server
       timeout: 300
