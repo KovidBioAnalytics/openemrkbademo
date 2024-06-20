@@ -2,17 +2,4 @@ version: 0.0
 os: linux
 files:
   - source: /
-<<<<<<< HEAD
     destination: /var/www/html/
-=======
-    destination: /var/www/html/
-hooks:
-  BeforeInstall:
-    - location: scripts/install_dependencies.sh
-      timeout: 300
-      runas: root
-  AfterInstall:
-    - location: scripts/start_server.sh
-      timeout: 300
-      runas: root
->>>>>>> d9134e0946519a197fb12e457434cb0617a900d7
